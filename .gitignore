@@ -1,3 +1,35 @@
+# Model weights
+*.pt
+runs/
+
+# Data files  
+*.jpg
+*.png
+*.tif
+*.csv
+*.xlsx
+
+# Generated outputs
+detection_results/
+nova_detected_output.jpg
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+env/
+cafosat_env/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
