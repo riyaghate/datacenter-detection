@@ -1,0 +1,30 @@
+{
+  "total_tiles_processed": 1,
+  "total_detections": 1,
+  "before_folder": "processed_tiles\\before_processing",
+  "after_folder": "processed_tiles\\after_processing",
+  "tiles": [
+    {
+      "tile_name": "loudoun_tile_00_35",
+      "tile_path": "data/naip_tiles\\loudoun_tile_00_35.png",
+      "before_path": "processed_tiles\\before_processing\\loudoun_tile_00_35.jpg",
+      "after_path": "processed_tiles\\after_processing\\loudoun_tile_00_35_detections.jpg",
+      "detections_count": 1,
+      "detections": [
+        {
+          "confidence": 0.9307472109794617,
+          "bbox": [
+            228.37132263183594,
+            908.906494140625,
+            461.6544189453125,
+            1176.812744140625
+          ],
+          "center": [
+            345.0128707885742,
+            1042.859619140625
+          ]
+        }
+      ]
+    }
+  ]
+}

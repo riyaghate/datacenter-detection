@@ -52,7 +52,7 @@ class CensusTractProcessor:
         
         return tiles, positions
     
-    def process_tiles(self, tiles, confidence_threshold=0.3):
+    def process_tiles(self, tiles, confidence_threshold=0.85):
         """Run YOLO detection on each tile"""
         all_detections = []
         
